@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="Contact_body">
+    <!-- ul for naviguation bar-->
+    <ul class="Menu">
+      <li class="nav_li">
+        <a class="logo" href="index.html"
+          ><img class="logo" src="Images/Logo.jpg" alt="logo"
+        /></a>
+      </li>
+      <li class="Menu_Right nav_li">
+        <a class="nav_li_a" href="ContactUs.html">Contact Us</a>
+      </li>
+      <li class="Menu_Right nav_li">
+        <a class="nav_li_a" href="index.html">Municipalities</a>
+      </li>
+    </ul>
+    <!--End of navigation bar-->
+    <div class="Contact_window">
+      <div id="Contact_Us_title"><h1 id="title">Contact Us</h1></div>
+      <div id="Contact_Us_input_window">
+        <br />
+        <form action="#" method="post" enctype="multipart/form-data">
+          <label class="input_titles"
+            >Full name:
+            <input class="input_window" type="text" name="username" required />
+          </label>
+          <br />
+          <label class="input_titles"
+            >Email:
+            <input class="input_window" type="email" name="email" required
+          /></label>
+          <br /><br />
+          <label class="input_titles">
+            Phone Number:
+            <input
+              class="input_window"
+              type="text"
+              name="phone_number"
+              required
+            />
+          </label>
+          <br />
+          <label class="input_titles">
+            Message:
+            <textarea class="input_window" rows="4" required></textarea>
+          </label>
+          <br />
+          <label class="input_titles"
+            ><input type="submit" value="submit"
+          /></label>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

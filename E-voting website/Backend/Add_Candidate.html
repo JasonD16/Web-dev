@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="backend_style.css" />
+    <title>Add Candidate</title>
+  </head>
+  <body class="body_Add_Candidate">
+    <h1 class="login_title">
+      Jason's E-voting website CMS
+      <a class="nav_bar_button" href="index.html">Logout</a>
+      <a class="nav_bar_button" href="change_password.html">Change Password</a>
+      <a class="nav_bar_button" href="Municipalities.html">Main</a>
+    </h1>
+    <h1 class="Add_candidate_title">ADD CANDIDATE</h1>
+    <div class="add_can_div">
+      <form
+        class="form_Add_candidate"
+        action="#"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <label class="label_can"
+          >Full Name:<br /><input
+            class="input_Can"
+            type="text"
+            name="Candidate_name"
+            required
+          /> </label
+        ><br /><br /><br />
+        <label class="label_can"
+          >Photo:<br /><input
+            class="file_can"
+            type="file"
+            name="Candidate_img"
+            required /></label
+        ><br /><br /><br /><br /><input
+          class="label_can"
+          type="submit"
+          value="add"
+        />
+      </form>
+    </div>
+  </body>
+</html>
