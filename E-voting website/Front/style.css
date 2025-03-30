@@ -145,20 +145,15 @@
 }
 
 .mun_candidates_details {
-  height: 30em;
-  width: 30em;
+  height: 27em;
+  width: 27em;
   border: 0.5em solid white;
   display: inline-block;
-  margin: 4em 4em;
+  margin: 3em 3em;
   overflow: scroll;
   padding: 10px;
   padding-top: 0px;
   text-align: left;
-  /* background-image: url("/Images/Jbeil.jpg"); */
-  /* background-size: cover; /* Scales the image to cover the div */
-  /* background-position: center; /* Centers the image */
-  /* background-repeat: no-repeat; /* Prevents repeating */
-
   background-color: rgb(224, 233, 214);
 }
 .mun_candidate_title {
