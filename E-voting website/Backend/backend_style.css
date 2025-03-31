@@ -26,6 +26,7 @@
 
 .login_title {
   position: fixed;
+  z-index: 1;
   text-align: left;
   height: 2em;
   line-height: 2em;
